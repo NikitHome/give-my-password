@@ -12,18 +12,6 @@ delete = Delete()
 receive_all = ReceiveAll()
 delete_all = DeleteAll()
 
-def start():
-        none = Colors.none
-        green = Colors.green
-        yellow = Colors.yellow
-        red = Colors.red
-        
-        print("Добавить (1) / Получить (2) / Получить всё (3) / Удалить (4) / Удалить всё (5)")
-        select = input()
-        
-        return select
-
-
 while True:
     def start():
         none = Colors.none
